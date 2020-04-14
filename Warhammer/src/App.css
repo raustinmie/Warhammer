@@ -1,0 +1,144 @@
+/*Better Than Dominion Stylesheet*/
+/* width, height, overflow, maxWidth, maxHeight, hide */
+/* document.querySelector() 
+USE CSS SELECTORS EG. "DIV > P"*/
+.army-selector{
+	background: lightgrey;
+	color: black;
+}
+
+body {
+	height: 100%;
+	width: 100%;
+	margin: 0px;
+	min-height: 350px;
+	font-size: 16pt;
+}
+
+.box {
+	display: flex;
+	min-height: 100px;
+	max-height: 100%;
+	box-sizing: border-box;
+	justify-content: flex-start;
+	flex-direction: column;
+}
+
+.box--title{
+	height: 24px;
+	font-size: 12pt;
+}
+
+button {
+	background-color: darkred;
+	color: beige;
+	opacity: 1;
+	align-self: flex-end;
+}
+
+.chat {
+	background: rgba(0, 0, 0, 0.5);
+	color: white;
+	height: 100%;
+	vertical-align: left;
+}
+
+.chat--user-inputs{
+	display: block;
+	justify-self: flex-start;
+	align-self: stretch;
+	height: inherit;
+	height: 200px;
+	overflow: auto;
+	width: 100%;
+}
+
+
+div {
+	border-radius: 10px;
+}
+
+.game-settings {
+	background: rgba(139, 69, 19, 0.5);
+}
+
+.game-settings > div {
+	overflow: auto;
+}
+
+.global-chat {
+	width: 98%;
+}
+
+.hide-element {
+	visibility: collapse;
+	display: none;
+}
+
+html {
+	height: 100%;
+}
+
+.input {
+	align-self: flex-start;
+}
+
+#join-game{
+	align-self: flex-end;
+}
+
+#lobby {
+	height: 100%;
+	/* background-image: url("AustinsGame.pdf"); */
+	background-color: burlywood;
+}
+
+#lobby > div {
+	padding: 6px;
+	margin: 6px;
+}
+
+.login-button {
+	justify-content: flex-end;
+}
+
+.middle-row{
+	display: flex;
+	align-items: stretch;
+	justify-content: space-between;
+	width: 98%;
+	min-height: 500px;
+}
+
+.middle-row-box{
+	width: 33%;
+}
+
+p {
+	margin: 0px;
+}
+
+.pending-games {
+	background: rgba(139, 69, 19, 0.5);
+	min-height: 320px;
+}
+
+.sign-in {
+	align-self: auto;
+	justify-self: flex-end;
+	opacity: 1;
+}
+
+.signed-in-as-notification{
+	justify-self: flex-start;
+}
+
+.top-row {
+	display: flex;
+	position: relative;
+	width: 98%;
+	padding: 6px;
+	margin: 25px;
+}
+
+
