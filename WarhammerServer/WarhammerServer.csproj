@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Project TollsVersion="1.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <PackageReference Include="Websocket.Client" Version="4.2.3"/>
+    <PackageReference Include="System.Reactive" Version="4.3.2"/>
+    <PackageReference Include="System.Threading.Channels" Version="4.7.0"/>
+  </ItemGroup>
+</Project>

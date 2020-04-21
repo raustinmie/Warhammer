@@ -22,5 +22,6 @@ namespace Rulebook
         public int LD { get; set; }
         public int baseSize { get; set; }
         public List<SpecialRules> SpecialRules { get; set; }
+        public int UnitStrength
     }
 }
